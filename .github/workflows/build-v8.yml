@@ -29,7 +29,7 @@ jobs:
         cd ~
         echo "=====[ Getting Depot Tools ]====="
         git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
-        
+        echo "=====[ Getting Depot Tools Done ]====="
         export PATH=～/depot_tools:$PATH
         gclient
         mkdir v8
