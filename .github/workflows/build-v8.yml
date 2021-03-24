@@ -66,3 +66,7 @@ jobs:
       with:
         name: v8_bin
         path: ~/v8/v8/output/**/*
+    - uses: actions/upload-artifact@v2
+      with:
+        name: v8_include
+        path: ~/v8/v8/include/**/*
