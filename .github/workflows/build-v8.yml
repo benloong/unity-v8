@@ -60,7 +60,7 @@ jobs:
         ninja -C out.gn/x64.release v8_monolith
 
         mkdir -p output/v8/Lib/macOS
-        cp out.gn/x64.release/obj/libwee8.a output/v8/Lib/macOS/
+        cp out.gn/x64.release/obj/libv8_monolith.a output/v8/Lib/macOS/
 
     - uses: actions/upload-artifact@v2
       with:
